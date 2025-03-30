@@ -231,7 +231,7 @@ def get_qa_chain(retriever):
         
         # Create custom prompt
         custom_prompt = PromptTemplate.from_template("""You are a helpful financial assistant answering questions based on a 10-K annual report. Use only the provided context. If the question is about risks, extract the actual risks and summarize them clearly. *Do not* say "refer to Item 1A" — instead, summarize what the section says. Keep your answers clear and helpful.
-        
+        Remove all formatting. Answer in plain English.
         Context: {context}
         Question: {question}
         Answer:""")
