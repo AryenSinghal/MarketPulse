@@ -1,0 +1,329 @@
+/* StockPage - Dark Theme Styling */
+.stock-page {
+    padding-bottom: 4rem;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+/* Header Section for Stock */
+.stock-header {
+    position: relative;
+    padding: 3rem 0 2rem;
+    text-align: center;
+    overflow: hidden;
+}
+
+.stock-header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    letter-spacing: -1px;
+}
+
+.company-name {
+    font-size: 1.25rem;
+    color: var(--text-secondary);
+    margin-bottom: 2rem;
+}
+
+/* Stock Overview Cards */
+.stock-overview {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.overview-card {
+    background-color: var(--bg-card);
+    border-radius: var(--border-radius);
+    border: var(--card-border);
+    padding: 1.5rem;
+    box-shadow: var(--shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.overview-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow), 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.data-label {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+}
+
+.data-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.price-value {
+    color: var(--accent-green);
+}
+
+/* Stock Chart Section */
+.chart-section {
+    background-color: var(--bg-card);
+    border-radius: var(--border-radius);
+    border: var(--card-border);
+    padding: 2rem;
+    margin-bottom: 3rem;
+    box-shadow: var(--shadow);
+}
+
+.chart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.time-filters {
+    display: flex;
+    gap: 1rem;
+}
+
+.time-filter {
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    background-color: var(--bg-secondary);
+    color: var(--text-secondary);
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.time-filter.active {
+    background-color: var(--accent-purple);
+    color: white;
+}
+
+/* News Analysis Section */
+.news-section {
+    margin-top: 3rem;
+}
+
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.5rem;
+}
+
+.news-card {
+    background-color: var(--bg-card);
+    border-radius: var(--border-radius);
+    border: var(--card-border);
+    padding: 1.5rem;
+    box-shadow: var(--shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.news-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow), 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.news-headline {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+.news-summary {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+    flex-grow: 1;
+}
+
+/* Prediction label and value */
+.prediction-container {
+    margin-top: auto;
+}
+
+.prediction-label {
+    display: inline-block;
+    background-color: rgba(133, 71, 255, 0.2);
+    color: var(--accent-purple);
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.25rem 0.75rem;
+    border-radius: 50px;
+    margin-bottom: 0.75rem;
+}
+
+.price-change {
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.price-change.positive {
+    background-color: rgba(0, 200, 5, 0.15);
+    color: var(--accent-green);
+}
+
+.price-change.negative {
+    background-color: rgba(255, 82, 82, 0.15);
+    color: var(--accent-red);
+}
+
+.price-change.neutral {
+    background-color: rgba(160, 160, 165, 0.15);
+    color: var(--text-secondary);
+}
+
+/* Loading state */
+.loading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6rem 0;
+}
+
+.loading-spinner {
+    width: 40px;
+    height: 40px;
+    border: 3px solid rgba(133, 71, 255, 0.3);
+    border-top-color: var(--accent-purple);
+    border-radius: 50%;
+    animation: spin 1s ease-in-out infinite;
+    margin-bottom: 1rem;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Animation for fading in elements */
+.fade-in {
+    animation: fadeIn 0.5s ease forwards;
+}
+
+.delay-1 {
+    animation-delay: 0.1s;
+}
+
+.delay-2 {
+    animation-delay: 0.2s;
+}
+
+.delay-3 {
+    animation-delay: 0.3s;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .stock-header h1 {
+        font-size: 2.5rem;
+    }
+
+    .stock-overview {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .news-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .stock-header {
+        padding: 2rem 0 1.5rem;
+    }
+
+    .stock-header h1 {
+        font-size: 2rem;
+    }
+
+    .stock-overview {
+        grid-template-columns: 1fr;
+    }
+
+    .time-filters {
+        gap: 0.5rem;
+    }
+
+    .time-filter {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.75rem;
+    }
+}
+
+.chart-loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    color: var(--text-secondary);
+}
+
+.chart-loading p {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.chart-mini-spinner {
+    width: 30px;
+    height: 30px;
+    border: 2px solid rgba(133, 71, 255, 0.2);
+    border-top-color: var(--accent-purple);
+    border-radius: 50%;
+    animation: spin 1s ease-in-out infinite;
+}
+
+.period-transition {
+    animation: fadeTransition 0.3s ease-in-out;
+}
+
+@keyframes fadeTransition {
+    0% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.time-filter {
+    position: relative;
+    overflow: hidden;
+}
+
+.time-filter.active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    animation: slideIn 0.3s ease forwards;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}

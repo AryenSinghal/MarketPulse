@@ -1,0 +1,33 @@
+,url,headline,text,publish_date,tickers,percentpricechanges
+0,https://www.cnbc.com/2025/03/05/crowdstrike-shares-slump-on-weak-earnings-outlook.html,"CrowdStrike slumps more than 6% on weak earnings outlook, overhang from outage costs","CrowdStrike shares fell due to weak earnings guidance, impacted by July's global IT outage.
+",2025-03-05 00:00:00,CRWD,-0.1544
+1,https://www.cnbc.com/2025/03/05/foot-locker-fl-q4-2024-earnings.html,Foot Locker results show the sneaker industry — and Nike — still have more pain ahead,"Foot Locker expects continued deep discounts in the sneaker market due to Nike's inventory clearance efforts.
+",2025-03-05 00:00:00,"CROX,BANR","0.8567,0.8477"
+2,https://www.cnbc.com/2025/03/05/mongodb-mdb-q4-earnings-report-2025.html,MongoDB shares sink after company issues weak guidance,"MongoDB shares plummeted 16% due to weak guidance despite exceeding Q4 earnings and revenue expectations.
+",2025-03-05 00:00:00,MDB,0.0206
+3,https://www.cnbc.com/2025/03/06/broadcom-avgo-earnings-report-q1-2025-.html,Broadcom shares soar 16% as earnings top estimates on demand for custom AI chips,"Broadcom's strong earnings and guidance beat expectations, causing a 16% stock jump.
+",2025-03-06 00:00:00,AVGO,0.2835
+4,https://www.cnbc.com/2025/03/06/broadcom-q1-earnings-give-the-battered-ai-trade-a-much-needed-win.html,Broadcom's report gives the battered AI trade a much-needed win,"Broadcom shares surged after exceeding expectations with strong AI chip performance and optimistic guidance.
+",2025-03-06 00:00:00,"GOOGL,AVGO,INTC,AAPL","0.118,0.1365,0.116,0.1205"
+5,https://www.cnbc.com/2025/03/06/costco-checks-plenty-of-key-boxes-for-investors-despite-earnings-miss.html,Costco checks plenty of key boxes for investors despite missing on earnings,"Costco's Q2 revenue beat expectations, showing continued growth driven by low prices amid economic uncertainty.
+",2025-03-06 00:00:00,"AMZN,COST","-0.0476,-0.0558"
+6,https://www.cnbc.com/2025/03/06/gap-gap-earnings-q4-2024.html,"Gap shares spike 17% as retailer blows away expectations again, showing turnaround has staying power","Gap's strong performance and successful turnaround, led by CEO Richard Dickson, caused a 17% stock jump.
+",2025-03-06 00:00:00,"MAT,BANR","-0.0743,-0.0769"
+7,https://www.cnbc.com/2025/03/06/hewlett-packard-enterprise-hpe-q1-earnings-report-2025.html,"HPE to cut 2,500 employees as stock slides 19% on weak earnings outlook","HPE shares dropped 19% after disappointing guidance, as reported by CNBC from the NYSE floor.
+",2025-03-06 00:00:00,NVDA,0.7187
+8,https://www.cnbc.com/2025/03/06/macys-m-q4-2024-earnings.html,Macy's turnaround hinges on revamping some stores and closing others. It appears to be working,"Macy's holiday sales fell; turnaround efforts and potential privatization create uncertainty for investors.
+",2025-03-06 00:00:00,BANR,0.4712
+9,https://www.cnbc.com/2025/03/06/marvell-shares-plunge-after-q4-2025-earnings-report.html,Marvell plunges nearly 20% as outlook falls short of high expectations,"Marvell stock dropped nearly 20% due to lower-than-expected revenue guidance, missing some investor targets.
+",2025-03-06 00:00:00,"MRVL,AVGO,AMZN,NVDA","-0.0163,0.0017,0.009,0.0089"
+10,https://www.cnbc.com/2025/03/06/mongodb-shares-crater-20percent-as-weak-outlook-overshadows-strong-results.html,MongoDB plummets nearly 27% for worst day ever as weak outlook overshadows strong quarterly results,"MongoDB's stock plummeted due to weak growth guidance for fiscal 2026, significantly missing analyst expectations.
+",2025-03-06 00:00:00,MDB,-0.2284
+11,https://www.cnbc.com/2025/03/07/broadcom-shares-rise-as-ai-growth-powers-strong-guidance-.html,Broadcom shares rise as AI growth powers strong guidance,"Broadcom's stock jumped 6% due to strong earnings and AI-driven demand outlook, surpassing analyst expectations.
+",2025-03-07 00:00:00,"MRVL,AVGO","0.2716,0.2636"
+12,https://www.cnbc.com/2025/03/11/volkswagen-posts-15percent-fall-in-annual-profit-amid-restructuring-expects-revenue-to-rise-in-2025.html,"Volkswagen expects revenue to grow in 2025, says it feels 'all-American' as tariffs loom","Volkswagen's operating profit fell 15% due to rising costs and ""extra strains,"" despite stock tracking promotion.
+",2025-03-11 00:00:00,LQDT,0.4181
+13,https://www.cnbc.com/2025/03/12/american-eagle-aeo-earnings-q4-2024.html,"American Eagle says consumer is slowing down, issues weak guidance","American Eagle reports a slower-than-expected start to 2025 due to weak demand and bad weather, anticipating spring improvements.
+",2025-03-12 00:00:00,BANR,0.311
+14,https://www.cnbc.com/2025/03/13/adobe-adbe-q1-earnings-report-2025.html,Adobe shares drop 14% as concerns about AI growth overshadow better-than-expected results,"Adobe CEO addressed B20 Summit; shares plummeted 14% after earnings due to AI monetization concerns.
+",2025-03-13 00:00:00,ADBE,0.3118
+15,https://www.cnbc.com/2025/03/13/dollar-general-dg-q4-2024-earnings.html,Dollar General store review and closures dent fourth-quarter earnings,"Dollar General's Q4 revenue beat expectations, but profit suffered due to store closures and portfolio review.
+",2025-03-13 00:00:00,BANR,0.3482

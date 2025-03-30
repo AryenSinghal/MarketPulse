@@ -1,0 +1,132 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.news-card {
+    background-color: #1f2937;
+    /* Dark background */
+    border: 1px solid #374151;
+    /* Border color */
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.5s ease-in-out forwards;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.news-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow), 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.news-card h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    line-height: 1.3;
+}
+
+.news-card p {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+    flex-grow: 1;
+    line-height: 1.5;
+}
+
+.news-headline {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+.news-summary {
+    font-size: 1rem;
+    color: #9ca3af;
+    margin-bottom: 16px;
+}
+
+.price-changes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.price-change {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #2d3748;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+.ticker {
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.change {
+    font-size: 0.875rem;
+    font-weight: bold;
+}
+
+.change.positive {
+    color: #10b981;
+    /* Green for positive changes */
+}
+
+.change.negative {
+    color: #ef4444;
+    /* Red for negative changes */
+}
+
+.news-impact {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+    border-top: 1px solid var(--bg-hover);
+}
+
+.impact-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-tertiary);
+}
+
+.impact-value {
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.35rem 0.75rem;
+    border-radius: 20px;
+}
+
+.impact-value.positive {
+    background-color: rgba(0, 200, 5, 0.15);
+    color: var(--accent-green);
+}
+
+.impact-value.negative {
+    background-color: rgba(255, 82, 82, 0.15);
+    color: var(--accent-red);
+}
+
+.impact-value.neutral {
+    background-color: rgba(160, 160, 165, 0.15);
+    color: var(--text-secondary);
+}
